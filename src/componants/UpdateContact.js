@@ -54,7 +54,7 @@ const UpdateContact = ({ user, handleUpdate,  setUpdate}) => {
               setEmail("newUsers");
               setName("");
               setNumber("");
-              console.log("after", user);
+              alert("User Updated SuccessFully!!!");
               setUpdate(false);
             });
         }

@@ -36,6 +36,7 @@ export default function Main({handleClose, addcontact}) {
   const deleteContact = (id) => {
     const newList = users.filter((user) => user.id !== id);
     setUsers(newList);
+    alert("User Deleted SuccessFully...")
     if (newList.length !== 0) {
       setUser(newList[0]);
     } else {
