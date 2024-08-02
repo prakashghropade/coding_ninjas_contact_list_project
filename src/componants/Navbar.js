@@ -8,7 +8,7 @@ export default function Navbar({handleClose}) {
     <div className={styles.nav}>
         <div >Contact List</div>
         
-        <div onClick={handleClose}>Add Contact</div>
+        <div onClick={handleClose} style={{cursor:"pointer"}}>Add Contact</div>
 
     </div>
   )
