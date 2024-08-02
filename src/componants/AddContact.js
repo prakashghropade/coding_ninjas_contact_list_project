@@ -31,6 +31,7 @@ const AddContact = ({handleClose, users, setUsers}) => {
         setUsers(() => newUsers);
         console.log("after", newUsers);
       });
+      alert("User Added SuccessFully!!!")
       handleClose();
   };
 
